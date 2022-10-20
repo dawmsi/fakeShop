@@ -7,6 +7,7 @@ import {
 import { Button, Card, CardActions, CardContent, Grid } from '@mui/material'
 import { Quantity } from 'components/Quantity/Quantity'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 const CartProductListItemExtended = ({
     product,
@@ -62,7 +63,9 @@ const CartProductListItemExtended = ({
                     </Button>
 
                     <Button variant="outlined">
-                        <ShoppingCartCheckoutRounded />
+                        <Link to="/checkout">
+                            <ShoppingCartCheckoutRounded />
+                        </Link>
                     </Button>
                 </CardActions>
             </Card>
