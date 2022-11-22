@@ -25,7 +25,7 @@ export const Menu = () => {
             </NavLink>
 
             <NavLink className={setNavLinkClass} to="/cart">
-                <Button color="inherit">Cart</Button>
+                <Button color="inherit">In Cart</Button>
             </NavLink>
         </>
     )

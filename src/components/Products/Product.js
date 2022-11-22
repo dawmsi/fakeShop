@@ -94,11 +94,12 @@ const mapDispatchProps = (dispatch) => ({
             type: 'DISLIKE',
             id,
         }),
-    addProductToCart: (id, count) => dispatch({
-        type: 'ADD_PRODUCT_TO_CART',
-        id,
-        count,
-    }),
+    addProductToCart: (id, count) =>
+        dispatch({
+            type: 'ADD_PRODUCT_TO_CART',
+            id,
+            count,
+        }),
 })
 
 //export default Product

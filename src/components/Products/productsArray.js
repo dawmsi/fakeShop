@@ -8,7 +8,7 @@ export const getProductsObject = (array) => {
     )
 }
 
-export const productsArray = [
+export const productsArrayLocal = [
     {
         id: 1,
         name: 'iPhone 13 Pro',
