@@ -8,7 +8,7 @@ const setNavLinkClass = ({ isActive }) => (isActive ? 'nav-link' : 'menu-link')
 export const Menu = () => {
     return (
         <>
-            <NavLink className={setNavLinkClass} to="/" end>
+            <NavLink className={setNavLinkClass} to="/home" end>
                 <Button color="inherit">Home</Button>
             </NavLink>
 

@@ -14,7 +14,8 @@ export const Main = () => {
         <main>
             <Container className="container">
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
+                    <Route path="/" element={<ProductsList />} />
+                    <Route path="home" element={<HomePage />} />
                     <Route path="products" element={<ProductsList />} />
                     <Route path="payment" element={<PaymentPage />} />
                     <Route path="shiping" element={<ShippingPage />} />
