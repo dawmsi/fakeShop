@@ -3,7 +3,7 @@ import { Box, Grid, MenuItem, TextField } from '@mui/material'
 import Product from 'components/Products/Product'
 
 import { /* connect, */ useSelector } from 'react-redux'
-import { productsArrayLocal } from './productsArray'
+// import { productsArrayLocal } from './productsArray'
 
 export const ProductsList = () => {
     const [sizeMemory, setSizeMemory] = useState('all')
